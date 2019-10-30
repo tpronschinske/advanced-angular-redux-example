@@ -1,0 +1,8 @@
+<div class="display mt-3">
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let p of products | async">
+      <span>{{ p.ProductID }} </span>
+      <span>{{ p.ProductName }}</span>
+    </li>
+  </ul>
+</div>
